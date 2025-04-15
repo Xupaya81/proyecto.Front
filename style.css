@@ -1,0 +1,175 @@
+/* Estilos por etiqueta */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #8B4513; /* Marrón oscuro */
+    border-bottom: 2px solid #5C2E0E;
+}
+
+/* Personalización de los enlaces de la navbar */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #DEB887 !important;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #DEB887 !important;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #FFE4C4 !important; /* Un tono más claro al pasar el mouse */
+}
+
+.navbar-toggler {
+    border-color: #DEB887;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(222, 184, 135, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Resto de los estilos existentes */
+.carousel {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 500px; /* Altura fija del carrusel */
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    object-position: center;
+}
+/* Estilos de recuadro de informacion */
+.recuadro-custom {
+    background-color: hsl(30, 88%, 33%);
+    color: #DEB887;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(161, 24, 24, 0.1);
+}
+
+/* Estilos por clase */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #5C2E0E;
+    background-color: #8B4513;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.3);
+}
+
+.card-title {
+    color: #DEB887;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #DEB887;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+/* Estilos por ID */
+#inicio {
+    margin-bottom: 40px;
+}
+
+#productos {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+#contacto {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para el buscador */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    background-color: #DEB887;
+    border: 1px solid #5C2E0E;
+    color: #8B4513;
+    padding-right: 40px;
+    width: 200px;
+}
+
+.search-input::placeholder {
+    color: #8B4513;
+    opacity: 0.7;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.search-button:hover .search-icon {
+    opacity: 1;
+}
+
+/* Estilos para el botón de enviar */
+.btn-primary {
+    background-color: #8B4513;
+    border-color: #5C2E0E;
+    color: #DEB887;
+}
+
+.btn-primary:hover {
+    background-color: #5C2E0E;
+    border-color: #8B4513;
+    color: #FFE4C4;
+}
